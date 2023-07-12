@@ -1,0 +1,84 @@
+@media screen and (min-width: 400px) and (max-width: 900px) {
+    header {
+        padding: 35px;
+    }
+    nav {
+        display: none;
+    }
+    header > button {
+        display: none;
+    }
+    section {
+        padding: 30px;
+    }
+    .main-section {
+        padding: 0px;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+    }
+    .main-content {
+        text-align: center;
+        padding: 70px 20px;
+    }
+    .main-content p {
+        width: 100%;
+        text-align: justify;
+    }
+    .images {
+        background-image: url(/images/bg-intro-mobile.svg);
+        background-size: cover;
+        height: 520px;
+        width: 100%;
+    }
+    .cellphone-img {
+        margin: 30px auto;
+        background-size: cover;
+        height: 570px;
+        width: 470px;
+    }
+    .mid-section {
+        text-align: center;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .div1-midsection {
+        margin-bottom: 60px;
+    }
+    .mid-section p {
+        padding: 15px;
+    }
+    .mid-section h3 {
+        padding: 25px;
+    }
+    .div-icons {
+        margin: 15px 0px;
+    }
+    article > div {
+        margin: 15px;
+    }
+    article > div:hover {
+        cursor: pointer;
+    }
+    article h4 {
+        font-size: 22px;
+    }
+    article p {
+        line-height: 1.8em;
+        padding: 18px 0px;
+    }
+    .thumbnails {
+        width: 100%;
+        height: 230px;
+        border-radius: 6px;
+        margin-top: 25px;
+    }
+    span {
+        display: block;
+        padding: 15px 0px;
+        font-size: 13px;
+    }
+    button {
+        padding: 18px 0px;
+        width: 180px;
+    }
+}
