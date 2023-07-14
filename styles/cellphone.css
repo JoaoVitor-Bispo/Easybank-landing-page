@@ -28,6 +28,7 @@
     }
     .main-content p {
         width: 100%;
+        padding: 35px;
         text-align: justify;
     }
     .images {
@@ -37,9 +38,9 @@
         width: 100%;
     }
     .cellphone-img {
-        margin: 30px auto;
+        margin: 26px auto;
         background-size: cover;
-        height: 570px;
+        height: 580px;
         width: 470px;
     }
     .mid-section {
@@ -50,11 +51,15 @@
     .div1-midsection {
         margin-bottom: 60px;
     }
+    .div1-midsection p {
+        padding: 30px 0px;
+    }
     .mid-section p {
-        padding: 15px;
+        padding-bottom: 30px;
     }
     .mid-section h3 {
         padding: 25px;
+        font-size: 24px;
     }
     .div-icons {
         margin: 15px 0px;
@@ -124,5 +129,8 @@
     }
     #linksHidden a:hover {
         color: lime;
+    }
+    p {
+        line-height: 1.8em;
     }
 }
