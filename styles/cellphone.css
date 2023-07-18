@@ -79,7 +79,8 @@
         padding: 18px 0px;
     }
     .thumbnails {
-        width: 100%;
+        width: 350px;
+        text-align: center;
         height: 230px;
         border-radius: 6px;
     }

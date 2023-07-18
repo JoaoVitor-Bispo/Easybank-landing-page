@@ -1,4 +1,4 @@
-@media screen and (min-width: 1171px) and (max-width: 1920px){
+@media screen and (min-width: 900px) and (max-width: 1170px) {
     .main-section {
         display: flex;
         flex-flow: row nowrap;
@@ -6,7 +6,7 @@
     }
     .main-content {
         margin: 90px;
-        width: 35%;
+        width: 40%;
     }
     .main-content p {
         padding: 38px 0px;
@@ -28,7 +28,7 @@
         gap: 28px;
     }
     .div1-midsection {
-        width: 55%;
+        width: 45%;
         padding-bottom: 20px;
     }
     .div1-midsection p {
@@ -54,16 +54,11 @@
         text-align: center;
         height: 220px;
     }
-    button {
-        width: 180px;
-        font-size: 14px;
-        font-weight: bold;
-    }
     h3 {
-        font-size: 26px;
+        font-size: 24px;
     }
     p {
-        line-height: 1.5em;
-        font-size: 20px;
+        line-height: 1.8em;
+        font-size: 18px;
     }
 }

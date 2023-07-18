@@ -44,9 +44,6 @@
         padding: 90px;
     }
     .main-section {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
         background-image: linear-gradient(to bottom, var(--light-gray), white);
         padding: 0px;
     }
@@ -58,6 +55,12 @@
     }
     .last-section {
         background-color: #FAFAFA;
+    }
+    article > div {
+        background-color: white;
+    }
+    article > div:hover {
+        cursor: pointer;
     }
     article h1 {
         padding-bottom: 25px;
@@ -74,10 +77,8 @@
         cursor: pointer;
     }
     .images {
-        background: url(/images/bg-intro-desktop.svg) no-repeat center left;
-    }
-    .cellphone-img {
-        background: url(/images/image-mockups.png) center bottom;
+        background: url(/images/bg-intro-desktop.svg) no-repeat;
+        text-align: center;
     }
     footer {
         background-color: var(--dark-blue);
@@ -99,7 +100,6 @@
     }
     p {
         color: var(--blue-gray);
-        font-size: 18px;
     }
     h1 {
         font-size: 44px;
