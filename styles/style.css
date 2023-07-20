@@ -54,7 +54,17 @@
         padding: 35px 0px;
     }
     .last-section {
-        background-color: #FAFAFA;
+        background-color: #f8f7ed;
+    }
+    .parent-thumbs {
+        background-color: #f8f7ed;
+    }
+    .thumbnails {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .parent-thumbs > div {
+        background-color: white;
     }
     article > div {
         background-color: white;
@@ -75,6 +85,7 @@
     }
     button:hover {
         cursor: pointer;
+        background-image: linear-gradient(to left, lime, rgb(0, 119, 255));
     }
     .images {
         background: url(/images/bg-intro-desktop.svg) no-repeat;
@@ -92,8 +103,19 @@
     footer a:hover {
         color: lime;
     }
+    .social-medias {
+        padding: 20px 0px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        gap: 12px;
+        list-style: none;
+    }
     .social-medias:hover {
         cursor: pointer;
+    }
+    ul {
+        list-style: none;
     }
     h1, h2, h3, h4 {
         color: var(--dark-blue);

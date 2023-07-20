@@ -1,13 +1,13 @@
 const menu = document.querySelector('#menu');
 const otherLinks = [...document.getElementsByClassName('header-links')];
+
+const newDiv = document.createElement('div');
 let menuImage = false
+newDiv.id = 'linksHidden'
 
 menu.addEventListener('click', (e) => {
-    const newDiv = document.createElement('div');
-    newDiv.id = 'linksHidden'
-
     menuImage === false ? menuImage = true : menuImage = false
-
+    
     if(menuImage === true) {
         menu.src = '/images/icon-close.svg'
 
@@ -19,6 +19,8 @@ menu.addEventListener('click', (e) => {
         document.querySelector('.images').style.opacity = '0.4'    
     }
     else {
+        menu.src = '/images/icon-hamburger.svg'
+        document.querySelector('.images').style.opacity = '1'    
         newDiv.remove()
     }
 })

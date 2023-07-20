@@ -1,4 +1,4 @@
-@media screen and (min-width: 1171px) and (max-width: 1920px){
+@media screen and (min-width: 1170px) and (max-width: 1920px){
     .main-section {
         display: flex;
         flex-flow: row nowrap;
@@ -8,19 +8,23 @@
         margin: 90px;
         width: 35%;
     }
+    .main-content h1{
+        font-size: 50px;
+    }
     .main-content p {
-        padding: 38px 0px;
+        padding: 36px 0px;
     }
     .images {
-        width: 45%;
+        width: 60%;
         background-position: center left;
+        position: relative;
     }
     .cellphone-img {
-        width: 50%;
-        height: 95%;
+        width: 90%;
+        height: 130%;
         position: absolute;
-        right: 1px;
-        top: 20%;
+        right: 4px;
+        top: 6px;
     }
     .mid-div {
         display: grid;
@@ -39,10 +43,11 @@
         grid-template-columns: 25% 25% 25% 25%;
         gap: 10px;
     }
-    .parent-thumbs > div {
+    .parent-thumbs > div > div {
         padding: 0px 12px;
     }
-    article h4 {
+    .parent-thumbs h4 {
+        padding-top: 12px;
         font-size: 22px;
     }
     article p {
@@ -51,13 +56,14 @@
     }
     .thumbnails {
         width: 100%;
-        text-align: center;
+        padding-bottom: 12px;
         height: 220px;
     }
     button {
         width: 180px;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
+        padding: 20px 0px;
     }
     h3 {
         font-size: 26px;

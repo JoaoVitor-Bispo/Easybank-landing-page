@@ -34,13 +34,21 @@
     .div1-midsection p {
         padding: 25px 0px;
     }
+    .last-section {
+        padding: 90px 50px;
+    }
     .parent-thumbs {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        gap: 10px;
     }
     .parent-thumbs > div {
-        padding: 0px 12px;
+        margin: 0px 6px;
+    }
+    .parent-thumbs h4 {
+        padding-top: 12px;
+    }
+    .parent-thumbs > div > div {
+        padding: 0px 10px;
     }
     article h4 {
         font-size: 22px;
@@ -51,8 +59,28 @@
     }
     .thumbnails {
         width: 100%;
-        text-align: center;
-        height: 220px;
+        height: 190px;
+        padding-bottom: 12px;
+    }
+    footer {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 100px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 70px 40px;
+    }
+    .footer-div1 {
+        width: 300px;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        gap: 5px;
+    }
+    ul {
+        display: inline-block;
+    }
+    li {
+        margin: 6px 0px;
     }
     h3 {
         font-size: 24px;
