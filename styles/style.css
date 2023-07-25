@@ -1,134 +1,141 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
-    :root {
-        --dark-blue: hsl(233, 26%, 24%);
-        --lime-green: hsl(136, 65%, 51%);
-        --bright-cyan: hsl(192, 70%, 51%);
-        --light-gray: hsl(0, 0%, 98%);
-        --blue-gray: hsl(233, 8%, 62%);
-        --white: hsl(0, 0%, 100%);
-    }
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --light-gray: hsl(0, 0%, 98%);
+    --blue-gray: hsl(233, 8%, 62%);
+    --white: hsl(0, 0%, 100%);
+}
 
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-    body, html {
-        font-family: 'Public Sans', sans-serif;
-    }
-    header {
-        padding: 25px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        align-items: center;
-    }
-    main {
-        display: flex;
-        flex-direction: column;
-    }
-    nav > a {
-        color: var(--blue-gray);
-        font-size: 18px;
-        font-weight: 300;
-        padding: 15px;
-        text-decoration: none;
-    }
-    nav > a:hover {
-        color: var(--dark-blue)
-    }
-    section {
-        width: 100%;
-        padding: 90px;
-    }
-    .main-section {
-        background-image: linear-gradient(to bottom, var(--light-gray), white);
-        padding: 0px;
-    }
-    .mid-section {
-        background-color: #F3F4F6;
-    }
-    .div-icons h3 {
-        padding: 35px 0px;
-    }
-    .thumbnails {
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
-    }
-    .parent-thumbs > div {
-        background-color: white;
-    }
-    article > div {
-        background-color: white;
-    }
-    article > div:hover {
-        cursor: pointer;
-    }
-    article h1 {
-        padding-bottom: 25px;
-    }
-    button {
-        background-image: linear-gradient(to right, lime, rgb(0, 119, 255));
-        width: 130px;
-        color: white;
-        padding: 15px;
-        border-radius: 40px;
-        border: none;
-    }
-    button:hover {
-        cursor: pointer;
-        background-image: linear-gradient(to left, lime, rgb(0, 119, 255));
-    }
-    .images {
-        background: url(/images/bg-intro-desktop.svg) no-repeat;
-        text-align: center;
-    }
-    footer {
-        background-color: var(--dark-blue);
-        text-align: center;
-    }
-    footer a {
-        color: white;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    footer a:hover {
-        color: lime;
-    }
-    .social-medias {
-        padding: 20px 0px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        gap: 12px;
-        list-style: none;
-    }
-    .social-medias:hover {
-        cursor: pointer;
-    }
-    ul {
-        list-style: none;
-    }
-    h1, h2, h3, h4 {
-        color: var(--dark-blue);
-    }
-    p {
-        color: var(--blue-gray);
-    }
-    h1 {
-        font-size: 44px;
-    }
-    span {
-        color: var(--blue-gray);
-        font-size: 13px;
-    }
-    #menu {
-        display: none;
-    }
-    .license {
-        color: var(--blue-gray);
-        font-size: 14px;
-    }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Public Sans', sans-serif;
+}
+header {
+    padding: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+nav > a {
+    color: var(--blue-gray);
+    font-size: 18px;
+    font-weight: 300;
+    padding: 15px;
+    text-decoration: none;
+}
+nav > a:hover {
+    color: var(--dark-blue)
+}
+section {
+    width: 100%;
+    padding: 90px;
+}
+.main-section {
+    background-image: linear-gradient(to bottom, var(--light-gray), white);
+    padding: 0px;
+}
+.mid-section {
+    background-color: #F3F4F6;
+}
+.div-icons h3 {
+    padding: 35px 0px;
+}
+.last-section {
+    background-color: #FCFCFC;
+}
+.thumbnails {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.parent-thumbs > div {
+    background-color: white;
+}
+.parent-thumbs > div:hover {
+    transition-property: scale;
+    transition-duration: 0.2s;
+    scale: 1.01;
+}
+article > div:hover {
+    cursor: pointer;
+}
+article h1 {
+    padding-bottom: 25px;
+}
+button {
+    background-image: linear-gradient(to right, lime, rgb(0, 119, 255));
+    width: 130px;
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to left, lime, rgb(0, 119, 255));
+}
+.images {
+    background: url(/images/bg-intro-desktop.svg) no-repeat;
+    text-align: center;
+    opacity: 1;
+}
+footer {
+    background-color: var(--dark-blue);
+    text-align: center;
+    padding-top: 40px;
+}
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover {
+    color: lime;
+}
+.social-medias {
+    padding: 20px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 12px;
+    list-style: none;
+}
+.social-medias:hover {
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+h1, h2, h3, h4 {
+    color: var(--dark-blue);
+}
+p {
+    color: var(--blue-gray);
+}
+h1 {
+    font-size: 44px;
+}
+span {
+    color: var(--blue-gray);
+    font-size: 13px;
+}
+#menu {
+    display: none;
+}
+.license {
+    color: var(--blue-gray);
+    font-size: 14px;
+}
 

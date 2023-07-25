@@ -68,19 +68,25 @@
         gap: 100px;
         align-items: center;
         justify-content: space-between;
-        padding: 70px 40px;
+        padding: 70px;
     }
     .footer-div1 {
-        width: 300px;
+        width: 400px;
         display: flex;
-        flex-flow: row-reverse wrap;
-        gap: 5px;
+        flex-flow: row wrap;
+        gap: 45px;
+    }
+    footer button {
+        margin: 0px 0px 25px 0px;
     }
     ul {
         display: inline-block;
     }
     li {
-        margin: 6px 0px;
+        margin: 6px;
+    }
+    .other-links {
+        font-size: 19px;
     }
     h3 {
         font-size: 24px;

@@ -59,6 +59,35 @@
         padding-bottom: 12px;
         height: 220px;
     }
+    footer {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 100px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 70px;
+    }
+    .footer-div1 {
+        width: 550px;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 35px;
+    }
+    .other-links {
+        font-size: 19px;
+    }
+    .other-links  li {
+        margin: 15px 30px;
+    }
+    ul {
+        display: inline-block;
+    }
+    li {
+        margin: 6px 0px;
+    }
+    footer button {
+        margin-bottom: 20px;
+    }
     button {
         width: 180px;
         font-size: 12px;
