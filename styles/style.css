@@ -89,7 +89,6 @@ button:hover {
 .images {
     background: url(/images/bg-intro-desktop.svg) no-repeat;
     text-align: center;
-    opacity: 1;
 }
 footer {
     background-color: var(--dark-blue);
